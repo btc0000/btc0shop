@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:  url('https://wallpapercave.com/wp/wp12356000.jpg') center/cover no-repeat;
+}
+
+header {
+    backdrop-filter: grayscale(80%) blur(50px); /* Ajusta la intensidad del desenfoque y el oscurecimiento */
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centro los productos */
+}
+
+.product {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    width: 300px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    text-align: center; /* Centro el texto */
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+h2 {
+    color: #333;
+    margin: 15px 0;
+}
+
+p {
+    color: #666;
+    margin: 0 0 15px;
+}
+
+.price {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.add-to-cart-btn {
+    background-color: #b644d3;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #451664;
+}
